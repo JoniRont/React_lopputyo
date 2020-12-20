@@ -1,0 +1,31 @@
+.counter{
+  background-color: cadetblue;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  padding: 15px ;
+  text-align: center;
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  min-width: 100px;
+}
+
+.jokes{
+  margin-left: 5%;
+  font-size: 20px;
+  display: block;
+  font-weight: 400;
+  background-color: rgba(179, 212, 182, 0.212);
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  letter-spacing: 1px;
+}
+
+h2{
+  text-align: center;
+  min-width: 100px;
+}
+

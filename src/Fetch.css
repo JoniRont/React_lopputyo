@@ -1,0 +1,83 @@
+@media only screen and (max-width: 500px) {
+  .jokeBox{
+    max-width: 80%;
+  }
+  .labels {
+    padding: 4px;
+    width: 60%;
+    margin-left: 15%;
+  }
+}
+.jokeBox{
+  background-color: cadetblue;
+  max-width: 90%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input, .sel, button {
+  padding: 10px 10px;
+  margin: 3px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  width:80%;
+  display: block;
+  min-width: 70px;
+}
+
+.labels{
+  display: inline-block;
+  padding: 20px;
+}
+
+div {
+  border-radius: 5px;
+  padding: 10px;
+  max-width: 100%;
+  min-width: 140px;
+}
+
+label{
+  margin: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+button {
+  position: relative;
+  background-color: #73b875;
+  border-color: darkgray;
+  color: #FFFFFF;
+  text-align: center;
+  -webkit-transition-duration: 0.7s; /* Safari */
+  transition-duration: 0.7s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: seagreen;
+}
+
+button:after {
+  content: "";
+  background: #90EE90;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px!important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 1s
+}
+
+button:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
